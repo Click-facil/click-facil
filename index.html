@@ -5,23 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Click Fácil - Serviços Digitais</title>
   <style>
-    body {
+    * {
+      box-sizing: border-box;
       margin: 0;
+      padding: 0;
+    }
+    body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #0e1a24;
+      background: linear-gradient(135deg, #0e1a24, #182c3a);
       color: #f1f1f1;
       display: flex;
       flex-direction: column;
       align-items: center;
       padding: 2rem;
+      line-height: 1.6;
     }
     .container {
-      max-width: 700px;
+      max-width: 800px;
       width: 100%;
       background: #1b2e3c;
       border-radius: 16px;
       padding: 2rem;
-      box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+      box-shadow: 0 0 30px rgba(0, 255, 255, 0.1);
+      position: relative;
+    }
+    .logo {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1.5rem;
+    }
+    .logo img {
+      width: 160px;
+      height: auto;
     }
     h1 {
       color: #00d0ff;
@@ -30,24 +45,24 @@
     }
     p {
       text-align: center;
-      margin-bottom: 1.5rem;
+      margin-bottom: 2rem;
     }
     .servicos {
       background: #243746;
       border-radius: 12px;
-      padding: 1rem;
+      padding: 1rem 1.5rem;
       margin-bottom: 1.5rem;
     }
     .servicos h3 {
       color: #00bcd4;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.75rem;
     }
     .servicos ul {
       list-style: none;
       padding-left: 1rem;
     }
     .servicos ul li {
-      padding: 0.3rem 0;
+      padding: 0.4rem 0;
     }
     .contato {
       text-align: center;
@@ -72,16 +87,13 @@
       font-size: 0.9rem;
       color: #aaa;
     }
-    .logo {
-      width: 120px;
-      margin-bottom: 20px;
-    }
   </style>
 </head>
 <body>
-  <img src="logo.png" alt="Logo Click Fácil" class="logo" />
-
   <div class="container">
+    <div class="logo">
+      <img src="logo.png" alt="Logo Click Fácil" />
+    </div>
     <h1>Click Fácil</h1>
     <p>Serviços digitais simples, rápidos e acessíveis. Atendimento 100% online, pensado para facilitar a vida de quem precisa resolver tudo sem sair de casa.</p>
 
@@ -125,6 +137,7 @@
         <li>Revisão e formatação de TCCs ou trabalhos – R$30</li>
         <li>Suporte para trabalhos escolares e acadêmicos – a partir de R$15</li>
         <li>Criação de artes simples (convites, cartazes, etc.) – R$20</li>
+        <li><strong>Criação de landing pages personalizadas – a partir de R$35</strong></li>
       </ul>
     </div>
 
