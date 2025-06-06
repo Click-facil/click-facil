@@ -1,130 +1,162 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Click Fácil - Serviços Digitais</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Click Fácil</title>
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      background: linear-gradient(to bottom, #0a0f1c, #1c2333);
       color: #fff;
     }
 
     header {
-      background-color: #0b1f2a;
-      padding: 20px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-bottom: 2px solid #0ff;
+      text-align: center;
+      padding: 40px 20px 20px;
     }
 
     header img {
-      height: 60px;
+      width: 120px;
     }
 
-    h1,
-    h2 {
-      color: #0ff;
+    h1 {
+      font-size: 32px;
+      color: #00f0ff;
+      margin-top: 10px;
+    }
+
+    p.descricao {
       text-align: center;
+      max-width: 600px;
+      margin: 10px auto 40px;
+      font-size: 16px;
+      color: #b0c4de;
     }
 
     .container {
-      padding: 30px;
-      max-width: 900px;
+      max-width: 700px;
       margin: 0 auto;
-    }
-
-    .servico {
-      background-color: rgba(0, 255, 255, 0.1);
       padding: 20px;
-      margin: 20px 0;
-      border-left: 5px solid #0ff;
-      border-radius: 8px;
+      background-color: #121826;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 240, 255, 0.15);
     }
 
-    .servico h3 {
-      margin-top: 0;
-      color: #0ff;
+    .categoria {
+      margin-bottom: 30px;
     }
 
-    .whatsapp-button {
-      display: block;
-      width: fit-content;
-      margin: 30px auto;
-      padding: 12px 24px;
-      background-color: #25d366;
-      color: white;
-      font-weight: bold;
-      text-decoration: none;
-      border-radius: 8px;
-      transition: background-color 0.3s ease;
+    .categoria h2 {
+      color: #00f0ff;
+      border-bottom: 1px solid #00f0ff;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+      font-size: 20px;
+    }
+
+    .categoria ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .categoria li {
+      padding: 8px 0;
+      border-bottom: 1px solid #2c3e50;
+      font-size: 15px;
+    }
+
+    .cta {
       text-align: center;
+      margin: 40px 0;
     }
 
-    .whatsapp-button:hover {
-      background-color: #1eb150;
+    .cta a {
+      display: inline-block;
+      background-color: #00f0ff;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 15px 25px;
+      border-radius: 8px;
+      font-size: 16px;
+      box-shadow: 0 0 10px #00f0ff;
+      transition: 0.3s;
+    }
+
+    .cta a:hover {
+      background-color: #00d9e5;
+      box-shadow: 0 0 20px #00f0ff;
     }
 
     footer {
       text-align: center;
-      padding: 20px;
-      background-color: #0b1f2a;
-      color: #aaa;
-      font-size: 0.9rem;
-      border-top: 1px solid #0ff;
+      font-size: 13px;
+      color: #888;
+      margin: 30px 0 10px;
     }
   </style>
 </head>
-
 <body>
   <header>
-    <img src="https://i.ibb.co/tQxKYVV/logo-sem-fundo.png" alt="Logo Click Fácil" />
+    <img src="logo sem fundo.png" alt="Logo Click Fácil">
+    <h1>Click Fácil</h1>
+    <p class="descricao">Serviços digitais simples, rápidos e acessíveis. Atendimento 100% online, pensado para facilitar a vida de quem precisa resolver tudo sem sair de casa.</p>
   </header>
 
   <div class="container">
-    <h1>Click Fácil</h1>
-    <h2>Serviços Digitais com Agilidade e Qualidade</h2>
-
-    <div class="servico">
-      <h3>📄 Criação de Currículo Profissional</h3>
-      <p>Modelo moderno, com destaque para suas experiências e qualidades. Entrega em PDF e Word. Valor: <strong>R$ 20,00</strong></p>
+    <div class="categoria">
+      <h2>Documentos e Currículos</h2>
+      <ul>
+        <li>Currículos personalizados – R$15</li>
+        <li>Declarações simples – R$10</li>
+        <li>Contratos básicos – R$20</li>
+        <li>Cartas de apresentação – R$12</li>
+        <li>Termos de responsabilidade, uso de imagem, etc. – R$18</li>
+      </ul>
     </div>
 
-    <div class="servico">
-      <h3>📊 Criação de Planilhas Personalizadas</h3>
-      <p>Controle financeiro, controle de vendas, organização pessoal e profissional. Valor: <strong>R$ 25,00</strong></p>
+    <div class="categoria">
+      <h2>Planilhas e Controles</h2>
+      <ul>
+        <li>Controle financeiro pessoal – R$15</li>
+        <li>Controle de vendas e estoques – R$20</li>
+        <li>Agenda digital com lembretes – R$12</li>
+        <li>Planilha de orçamento mensal – R$15</li>
+        <li>Criação de planilhas customizadas – a partir de R$20</li>
+      </ul>
     </div>
 
-    <div class="servico">
-      <h3>🖥️ Digitação de Documentos e Trabalhos</h3>
-      <p>Trabalho acadêmico, documentos pessoais, contratos simples. Valor: <strong>R$ 15,00</strong></p>
+    <div class="categoria">
+      <h2>Serviços Rápidos</h2>
+      <ul>
+        <li>Agendamento de consultas, exames e órgãos públicos – R$10</li>
+        <li>Criação e recuperação de e-mails – R$10</li>
+        <li>Cadastro e validação gov.br – R$10</li>
+        <li>Conversões de arquivos (Word, PDF, JPG, etc.) – R$8</li>
+        <li>Envio de documentos por e-mail – R$5</li>
+      </ul>
     </div>
 
-    <div class="servico">
-      <h3>📱 Suporte Digital</h3>
-      <p>Ajuda para configurar celular, aplicativos, redes sociais, e-mail, etc. Valor: <strong>R$ 10,00</strong></p>
+    <div class="categoria">
+      <h2>Serviços Avançados</h2>
+      <ul>
+        <li>Apresentações no PowerPoint – R$25</li>
+        <li>Revisão e formatação de TCCs ou trabalhos – R$30</li>
+        <li>Suporte para trabalhos escolares e acadêmicos – a partir de R$15</li>
+        <li>Criação de artes simples (convites, cartazes, etc.) – R$20</li>
+        <li>Criação de landing pages personalizadas – a partir de R$35</li>
+      </ul>
     </div>
 
-    <div class="servico">
-      <h3>🧾 Criação de Documentos Simples</h3>
-      <p>Declarações, recibos, cartas de próprio punho e outros documentos pessoais. Valor: <strong>R$ 10,00</strong></p>
+    <div class="cta">
+      <a href="https://wa.me/5591984520696" target="_blank">Falar com Click Fácil</a>
     </div>
-
-    <div class="servico">
-      <h3>💻 Criação de Landing Page</h3>
-      <p>Página de apresentação profissional ou vendas com layout simples e funcional. Valor: <strong>R$ 30,00</strong></p>
-    </div>
-
-    <a class="whatsapp-button" href="https://wa.me/5591984520696" target="_blank">Fale comigo no WhatsApp</a>
   </div>
 
   <footer>
-    © 2025 Click Fácil | Atendimento via WhatsApp: (91) 98452-0696
+    Click Fácil © 2025 — Serviços Digitais com Agilidade e Simplicidade
   </footer>
 </body>
-
 </html>
