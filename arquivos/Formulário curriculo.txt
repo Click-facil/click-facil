@@ -1,0 +1,44 @@
+*🔍 Informações básicas*
+
+-Nome completo:
+
+-Telefone com WhatsApp (pode ser fictício se preferir):
+
+-E-mail:
+
+-Cidade/Estado:
+
+-Você tem LinkedIn? (Se sim, manda o link ou o @):
+
+-Tem portfólio online ou alguma rede profissional?
+
+*💼 Experiência profissional*
+
+*Para cada experiência, responde:*
+
+-Nome da empresa:
+
+-Cargo:
+
+-Período (de mês/ano até mês/ano ou “atualmente”):
+
+-Principais atividades e/ou resultados:
+
+(Se tiver mais de uma, pode mandar em sequência que organizo.)
+
+*🎓 Formação acadêmica*
+
+-Nome do curso:
+
+-Instituição:
+
+-Ano de conclusão ou se está em andamento:
+
+*📚 Cursos e Certificações*
+(Se tiver, me diz nome, instituição/plataforma e ano.)
+
+*🛠️ Ferramentas que você domina*
+(Ex: Excel, sistema hospitalar, Canva, sistemas de gestão, etc.)
+
+*😎 Suas principais qualidades (comportamentais)*
+(Ex: Organização, comunicação, atenção aos detalhes, resiliência...)

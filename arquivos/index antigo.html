@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Click Fácil - Serviços Digitais</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #0e1a24;
+      color: #f1f1f1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+    .container {
+      max-width: 700px;
+      width: 100%;
+      background: #1b2e3c;
+      border-radius: 16px;
+      padding: 2rem;
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+    }
+    h1 {
+      color: #00d0ff;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    p {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+    .servicos {
+      background: #243746;
+      border-radius: 12px;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .servicos h3 {
+      color: #00bcd4;
+      margin-bottom: 0.5rem;
+    }
+    .servicos ul {
+      list-style: none;
+      padding-left: 1rem;
+    }
+    .servicos ul li {
+      padding: 0.3rem 0;
+    }
+    .contato {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .botao-whatsapp {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: #25D366;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .botao-whatsapp:hover {
+      background-color: #1ebe5d;
+    }
+    footer {
+      margin-top: 3rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Click Fácil</h1>
+    <p>Serviços digitais simples, rápidos e acessíveis. Atendimento 100% online, pensado para facilitar a vida de quem precisa resolver tudo sem sair de casa.</p>
+
+    <div class="servicos">
+      <h3>Documentos e Currículos</h3>
+      <ul>
+        <li>Currículos personalizados – R$15</li>
+        <li>Declarações simples – R$10</li>
+        <li>Contratos básicos – R$20</li>
+        <li>Cartas de apresentação – R$12</li>
+        <li>Termos de responsabilidade, uso de imagem, etc. – R$18</li>
+      </ul>
+    </div>
+
+    <div class="servicos">
+      <h3>Planilhas e Controles</h3>
+      <ul>
+        <li>Controle financeiro pessoal – R$15</li>
+        <li>Controle de vendas e estoques – R$20</li>
+        <li>Agenda digital com lembretes – R$12</li>
+        <li>Planilha de orçamento mensal – R$15</li>
+        <li>Criação de planilhas customizadas – a partir de R$20</li>
+      </ul>
+    </div>
+
+    <div class="servicos">
+      <h3>Serviços Rápidos</h3>
+      <ul>
+        <li>Agendamento de consultas, exames e órgãos públicos – R$10</li>
+        <li>Criação e recuperação de e-mails – R$10</li>
+        <li>Cadastro e validação gov.br – R$10</li>
+        <li>Conversões de arquivos (Word, PDF, JPG, etc.) – R$8</li>
+        <li>Envio de documentos por e-mail – R$5</li>
+      </ul>
+    </div>
+
+    <div class="servicos">
+      <h3>Serviços Avançados</h3>
+      <ul>
+        <li>Apresentações no PowerPoint – R$25</li>
+        <li>Revisão e formatação de TCCs ou trabalhos – R$30</li>
+        <li>Suporte para trabalhos escolares e acadêmicos – a partir de R$15</li>
+        <li>Criação de artes simples (convites, cartazes, etc.) – R$20</li>
+      </ul>
+    </div>
+
+    <div class="contato">
+      <p>Entre em contato agora pelo WhatsApp e solicite seu serviço:</p>
+      <a href="https://wa.me/5591984520696" class="botao-whatsapp">Falar com Click Fácil</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>Click Fácil © 2025 — Serviços Digitais com Agilidade e Simplicidade</p>
+  </footer>
+</body>
+</html>
