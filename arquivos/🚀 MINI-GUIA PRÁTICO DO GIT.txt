@@ -1,0 +1,94 @@
+🚀 MINI-GUIA PRÁTICO DO GIT
+✅ 1. Configuração inicial (só precisa fazer 1 vez por máquina)
+bash
+Copiar
+Editar
+git config --global user.name "Matheus Henrique"
+git config --global user.email "seuemail@example.com"
+✅ 2. Criar um novo repositório local
+bash
+Copiar
+Editar
+git init
+✅ 3. Conectar ao GitHub (adiciona o repositório remoto)
+bash
+Copiar
+Editar
+git remote add origin https://github.com/seu-usuario/seu-repo.git
+✅ 4. Verificar o status dos arquivos
+bash
+Copiar
+Editar
+git status
+✅ 5. Adicionar arquivos para o commit
+bash
+Copiar
+Editar
+git add .
+O ponto . significa adicionar todos os arquivos alterados.
+
+✅ 6. Fazer o commit (registrar a alteração localmente)
+bash
+Copiar
+Editar
+git commit -m "Mensagem explicando a alteração"
+✅ 7. Enviar para o GitHub (push)
+bash
+Copiar
+Editar
+git push origin main
+O main é o nome da sua branch principal.
+
+✅ 8. Atualizar o projeto local com mudanças do GitHub (pull)
+bash
+Copiar
+Editar
+git pull origin main
+✅ 9. Corrigir conflitos
+Se der erro ao dar push, normalmente resolvemos com:
+
+bash
+Copiar
+Editar
+git pull origin main --rebase
+E depois:
+
+bash
+Copiar
+Editar
+git push origin main
+✅ 10. Atalho com script .bat
+Um script como commit-e-push.bat faz:
+
+bat
+Copiar
+Editar
+@echo off
+echo =============================
+echo Commit Automático Click Fácil
+echo =============================
+set /p mensagem="Mensagem do commit: "
+git add .
+git commit -m "%mensagem%"
+git push origin main
+pause
+Você só executa ele com:
+
+bash
+Copiar
+Editar
+.\commit-e-push.bat
+📌 Dica final
+Se quiser ver tudo que já foi commitado:
+
+bash
+Copiar
+Editar
+git log --oneline
+Se quiser, eu também posso:
+
+Te gerar um PDF com isso tudo já formatado;
+
+Criar um bloco de anotações estilo guia rápido com exemplos reais do seu projeto.
+
+Quer que eu monte isso também?
