@@ -3,164 +3,77 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Click Fácil</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(to bottom, #0a0f1c, #1c2333);
-      color: #fff;
-    }
-
-    header {
-      text-align: center;
-      padding: 40px 20px 20px;
-    }
-
-    header img {
-      width: 120px;
-    }
-
-    h1 {
-      font-size: 32px;
-      color: #00f0ff;
-      margin-top: 10px;
-    }
-
-    p.descricao {
-      text-align: center;
-      max-width: 600px;
-      margin: 10px auto 40px;
-      font-size: 16px;
-      color: #b0c4de;
-    }
-
-    .container {
-      max-width: 700px;
-      margin: 0 auto;
-      padding: 20px;
-      background-color: #121826;
-      border-radius: 15px;
-      box-shadow: 0 0 20px rgba(0, 240, 255, 0.15);
-    }
-
-    .categoria {
-      margin-bottom: 30px;
-    }
-
-    .categoria h2 {
-      color: #00f0ff;
-      border-bottom: 1px solid #00f0ff;
-      padding-bottom: 5px;
-      margin-bottom: 15px;
-      font-size: 20px;
-    }
-
-    .categoria ul {
-      list-style: none;
-      padding-left: 0;
-    }
-
-    .categoria li {
-      padding: 8px 0;
-      border-bottom: 1px solid #2c3e50;
-      font-size: 15px;
-    }
-
-    .cta {
-      text-align: center;
-      margin: 40px 0;
-    }
-
-    .cta a {
-      display: inline-block;
-      background-color: #28a745;
-      color: #fff;
-      text-decoration: none;
-      font-weight: bold;
-      padding: 15px 25px;
-      border-radius: 8px;
-      font-size: 16px;
-      box-shadow: 0 0 20px #28a745;
-      transition: 0.3s;
-    }
-
-    .cta a:hover {
-      background-color: #4caf50;
-      box-shadow: 0 0 20px #4caf50;
-    }
-
-    footer {
-      text-align: center;
-      font-size: 13px;
-      color: #888;
-      margin: 30px 0 10px;
-    }
-  </style>
+  <meta name="description" content="Serviços digitais simples, rápidos e acessíveis. Atendimento 100% online para facilitar sua vida.">
+  <title>Click Fácil — Serviços Digitais Online</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <img src="./logo.png" alt="Logo">
+    <img src="./logo.png" alt="Logo da Click Fácil: símbolo digital em azul" width="120" height="120" loading="lazy">
     <h1>Click Fácil</h1>
     <p class="descricao">Serviços digitais simples, rápidos e acessíveis. Atendimento 100% online, pensado para facilitar a vida de quem precisa resolver tudo sem sair de casa.</p>
   </header>
 
-  <div class="container">
-    <div class="categoria">
-      <h2>Documentos e Currículos</h2>
-      <ul>
-        <li>Currículos personalizados</li>
-        <li>Declarações simples</li>
-        <li>Contratos básicos</li>
-        <li>Cartas de apresentação</li>
-        <li>Termos de responsabilidade, uso de imagem, etc.</li>
-      </ul>
-    </div>
+  <main>
+    <div class="container">
+      <section class="categoria" aria-labelledby="doc-curriculos">
+        <h2 id="doc-curriculos">Documentos e Currículos</h2>
+        <ul>
+          <li>Currículos personalizados</li>
+          <li>Declarações simples</li>
+          <li>Contratos básicos</li>
+          <li>Cartas de apresentação</li>
+          <li>Termos de responsabilidade, uso de imagem, etc.</li>
+        </ul>
+      </section>
 
-    <div class="categoria">
-      <h2>Planilhas e Controles</h2>
-      <ul>
-        <li>Controle financeiro pessoal</li>
-        <li>Controle de vendas e estoques</li>
-        <li>Agenda digital com lembretes</li>
-        <li>Planilha de orçamento mensal</li>
-        <li>Criação de planilhas customizadas</li>
-      </ul>
-    </div>
+      <section class="categoria" aria-labelledby="planilhas-controles">
+        <h2 id="planilhas-controles">Planilhas e Controles</h2>
+        <ul>
+          <li>Controle financeiro pessoal</li>
+          <li>Controle de vendas e estoques</li>
+          <li>Agenda digital com lembretes</li>
+          <li>Planilha de orçamento mensal</li>
+          <li>Criação de planilhas customizadas</li>
+        </ul>
+      </section>
 
-    <div class="categoria">
-      <h2>Serviços Rápidos</h2>
-      <ul>
-        <li>Agendamento de consultas, exames e órgãos públicos</li>
-        <li>Criação e recuperação de e-mails</li>
-        <li>Cadastro e validação gov.br</li>
-        <li>Conversões de arquivos (Word, PDF, JPG, etc.)</li>
-        <li>QR Codes personalizados</li>
-        <li>Envio de documentos por e-mail</li>
-      </ul>
-    </div>
+      <section class="categoria" aria-labelledby="servicos-rapidos">
+        <h2 id="servicos-rapidos">Serviços Rápidos</h2>
+        <ul>
+          <li>Agendamento de consultas, exames e órgãos públicos</li>
+          <li>Criação e recuperação de e-mails</li>
+          <li>Cadastro e validação gov.br</li>
+          <li>Conversões de arquivos (Word, PDF, JPG, etc.)</li>
+          <li>QR Codes personalizados</li>
+          <li>Envio de documentos por e-mail</li>
+        </ul>
+      </section>
 
-    <div class="categoria">
-      <h2>Serviços Avançados</h2>
-      <ul>
-        <li>Instalação e ativação do Windows (versões 10 e 11)</li>
-        <li>Instalação e ativação do Office (versões 2013 ou superior)</li>
-        <li>Backup e sincronização de arquivos</li>
-        <li>Manutenção e otimização do sistema</li>
-        <li>Instalação de softwares básicos</li>
-        <li>Atualização de drivers</li>
-        <li>Apresentações no PowerPoint</li>
-        <li>Revisão e formatação de TCCs ou trabalhos</li>
-        <li>Suporte para trabalhos escolares e acadêmicos</li>
-        <li>Criação de artes simples (convites, cartazes, etc).</li>
-        <li>Criação de landing pages personalizadas</li>
-      </ul>
-    </div>
+      <section class="categoria" aria-labelledby="servicos-avancados">
+        <h2 id="servicos-avancados">Serviços Avançados</h2>
+        <ul>
+          <li>Instalação e ativação do Windows (versões 10 e 11)</li>
+          <li>Instalação e ativação do Office (versões 2013 ou superior)</li>
+          <li>Backup e sincronização de arquivos</li>
+          <li>Manutenção e otimização do sistema</li>
+          <li>Instalação de softwares básicos</li>
+          <li>Atualização de drivers</li>
+          <li>Apresentações no PowerPoint</li>
+          <li>Revisão e formatação de TCCs ou trabalhos</li>
+          <li>Suporte para trabalhos escolares e acadêmicos</li>
+          <li>Criação de artes simples (convites, cartazes, etc).</li>
+          <li>Criação de landing pages personalizadas</li>
+        </ul>
+      </section>
 
-    <div class="cta">
-      <a href="https://wa.me/5591984520696" target="_blank">Falar com Click Fácil</a>
+      <nav class="cta" aria-label="Contato">
+        <a href="https://wa.me/5591984520696" target="_blank" rel="noopener noreferrer">
+          Falar com Click Fácil
+        </a>
+      </nav>
     </div>
-  </div>
+  </main>
 
   <footer>
     Click Fácil © 2025 — Serviços Digitais com Agilidade
