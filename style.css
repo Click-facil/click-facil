@@ -196,3 +196,8 @@ footer {
   color: #b0c4de;
   text-align: center;
 }
+
+.avaliacoes,
+.avaliacao-formulario {
+  border: 1px solid #00f0ff30 !important;
+}
