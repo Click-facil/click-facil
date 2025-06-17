@@ -150,14 +150,13 @@ footer {
 }
 
 .avaliacoes, .avaliacoes-formulario {
-  margin: 40px auto;
   max-width: 700px;
+  margin: 0 auto;
   padding: 20px;
   background-color: #151b2b;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 240, 255, 0.05);
-  color: #b0c4de;
-  text-align: center;
+  border-radius: 15px;
+  border: 1px solid #00f0ff;
+  box-shadow: 0 0 30px rgba(0, 240, 255, 0.08);
 }
 
 .avaliacoes h2, .avaliacoes-formulario h2 {
