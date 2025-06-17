@@ -148,3 +148,81 @@ footer {
     font-size: 13px;
   }
 }
+
+/* Seção de depoimentos */
+.avaliacoes {
+  margin: 50px auto;
+  max-width: 800px;
+  padding: 30px;
+  background-color: #121826;
+  border-radius: 15px;
+  border: 1px solid #00f0ff30;
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.1);
+  color: #e0f7fa;
+}
+
+.avaliacoes h2 {
+  font-size: 24px;
+  color: #00f0ff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.comentario {
+  margin-bottom: 25px;
+  padding-left: 10px;
+  border-left: 3px solid #00f0ff;
+}
+
+.comentario .texto {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.comentario .autor {
+  font-size: 14px;
+  color: #8be0f2;
+  font-style: italic;
+}
+
+/* Seção do formulário */
+.avaliacoes-formulario {
+  margin: 50px auto;
+  max-width: 800px;
+  padding: 30px;
+  background-color: #121826;
+  border-radius: 15px;
+  border: 1px solid #00f0ff30;
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.1);
+  color: #e0f7fa;
+  text-align: center;
+}
+
+.avaliacoes-formulario h2 {
+  font-size: 24px;
+  color: #00f0ff;
+  margin-bottom: 15px;
+}
+
+.avaliacoes-formulario p {
+  font-size: 15px;
+  color: #d0e4f5;
+  margin-bottom: 20px;
+}
+
+.iframe-container {
+  background-color: #1a202e;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.08);
+  border: 1px solid #00f0ff;
+  overflow: hidden;
+}
+
+.iframe-container iframe {
+  width: 100%;
+  height: 600px;
+  border: none;
+  border-radius: 8px;
+}
