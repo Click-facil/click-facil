@@ -1,6 +1,7 @@
+/* ESTILOS BASE */
 body {
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(to bottom, #0a0f1c, #1c2333);
   color: #e5f1ff;
 }
@@ -20,17 +21,15 @@ h1 {
   margin-top: 10px;
 }
 
-p.descricao {
-  text-align: center;
-  max-width: 600px;
-  margin: 10px auto 40px;
-  font-size: 16px;
-  color: #b0c4de;
+.descricao-header {
+  font-size:18px; 
+  color:#b0c4de; 
+  margin: 8px 0;
 }
 
 .container {
   max-width: 700px;
-  margin: 0 auto;
+  margin: 20px auto;
   padding: 20px;
   background-color: #151b2b;
   border-radius: 15px;
@@ -69,25 +68,28 @@ p.descricao {
 
 .cta {
   text-align: center;
-  margin: 40px 0;
+  margin: 40px 0 20px;
 }
 
 .cta a {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   background-color: #28a745;
   color: #fff;
   text-decoration: none;
   font-weight: bold;
   padding: 15px 25px;
   border-radius: 8px;
-  font-size: 16px;
-  box-shadow: 0 0 20px #28a745;
-  transition: 0.3s;
+  font-size: 18px;
+  box-shadow: 0 0 20px rgba(40, 167, 69, 0.7);
+  transition: all 0.3s ease;
 }
 
 .cta a:hover {
-  background-color: #4caf50;
-  box-shadow: 0 0 20px #4caf50;
+  background-color: #218838;
+  box-shadow: 0 0 25px rgba(40, 167, 69, 1);
+  transform: scale(1.05);
 }
 
 footer {
@@ -97,7 +99,203 @@ footer {
   margin: 30px 0 10px;
 }
 
-/* Responsividade para telas médias */
+/* ================================== */
+/* NOVOS ESTILOS E MELHORIAS CORRIGIDOS */
+/* ================================== */
+
+/* Estilo para preço nos serviços */
+.preco {
+    font-size: 12px;
+    font-weight: bold;
+    color: #00f0ff;
+    background-color: #00f0ff20;
+    padding: 2px 6px;
+    border-radius: 5px;
+    margin-left: 8px;
+}
+
+/* Estilo unificado para as novas seções */
+#como-funciona,
+#garantias,
+#faq {
+    padding: 40px 20px;
+    margin: 40px auto; /* Usar auto nas laterais para centralizar o conteúdo interno */
+    max-width: 1000px; /* Definir uma largura máxima */
+}
+
+#como-funciona h2,
+#garantias h2,
+#faq h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #00f0ff;
+    margin-top: 0;
+    margin-bottom: 40px; /* Aumentar margem para mais respiro */
+}
+
+/* Seção "Como Funciona" */
+.passos-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.passo {
+    background-color: #151b2b;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #00f0ff30;
+    flex: 1;
+    min-width: 280px;
+    max-width: 320px;
+    text-align: center;
+}
+.passo-icone {
+    font-size: 40px;
+}
+.passo h3 {
+    font-size: 20px;
+    color: #e5f1ff;
+    margin: 10px 0;
+}
+
+/* Seção "Garantias" */
+.lista-garantias {
+    list-style: none;
+    padding-left: 0;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #b0c4de;
+}
+.lista-garantias li {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* Seção FAQ CORRIGIDA */
+.faq-container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+#faq details {
+    /* Removido o fundo e a borda sólida */
+    border-bottom: 1px solid #2c3e50; /* Adicionado um separador sutil */
+    margin-bottom: 10px;
+}
+#faq details[open] {
+    border-bottom: 1px solid #00f0ff; /* Destaca a borda quando aberto */
+}
+#faq summary {
+    padding: 15px 5px; /* Reduzido o padding lateral */
+    font-weight: 600;
+    font-size: 18px;
+    color: #e5f1ff;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    transition: color 0.2s;
+}
+#faq summary:hover {
+    color: #00f0ff;
+}
+#faq summary::after {
+    content: '▼';
+    transition: transform 0.2s;
+}
+#faq details[open] summary::after {
+    transform: rotate(180deg);
+}
+#faq p {
+    padding: 0 5px 15px; /* Ajustado o padding */
+    margin: 0;
+    color: #b0c4de;
+    line-height: 1.6;
+}
+
+/* Seção de Avaliações (estilos mantidos) */
+#avaliacoes-clientes {
+  margin: 50px auto;
+  padding: 20px;
+  max-width: 1000px;
+}
+.avaliacoes-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+.lista-comentarios, .formulario-avaliacao {
+  background-color: #121826;
+  border-radius: 15px;
+  border: 1px solid #00f0ff30;
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.1);
+  padding: 30px;
+  color: #e0f7fa;
+  flex: 1;
+  min-width: 320px;
+}
+.lista-comentarios h2, .formulario-avaliacao h2 {
+  font-size: 24px;
+  color: #00f0ff;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.comentario {
+  margin-bottom: 25px;
+  border-left: 3px solid #00f0ff;
+  padding-left: 15px;
+}
+.lista-comentarios .estrelas {
+  color: #ffc107;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.comentario .texto { font-size: 16px; margin-bottom: 5px; color: #ffffff; }
+.comentario .autor { font-size: 14px; color: #8be0f2; font-style: italic; }
+.formulario-avaliacao form { display: flex; flex-direction: column; }
+.formulario-avaliacao label { font-size: 16px; color: #b0c4de; margin-bottom: 8px; margin-top: 15px; }
+.formulario-avaliacao input[type="text"], .formulario-avaliacao textarea {
+  width: 100%;
+  padding: 12px;
+  background-color: #1c2333;
+  border: 1px solid #2c3e50;
+  border-radius: 8px;
+  color: #e5f1ff;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+.formulario-avaliacao input[type="text"]:focus, .formulario-avaliacao textarea:focus {
+  outline: none;
+  border-color: #00f0ff;
+  box-shadow: 0 0 10px rgba(0, 240, 255, 0.3);
+}
+.formulario-avaliacao button {
+  margin-top: 25px;
+  padding: 15px;
+  background-color: #00f0ff;
+  color: #0a0f1c;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.formulario-avaliacao button:hover {
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.5);
+}
+.rating { display: flex; flex-direction: row-reverse; justify-content: center; margin-top: 5px; }
+.rating input { display: none; }
+.rating label { font-size: 30px; color: #444; cursor: pointer; margin: 0 5px; transition: color 0.2s; }
+.rating input:checked ~ label, .rating:not(:checked) > label:hover, .rating:not(:checked) > label:hover ~ label { color: #00f0ff; }
+#form-status { text-align: center; margin-top: 20px; font-weight: bold; }
+
+/* RESPONSIVIDADE (existente) */
 @media (max-width: 800px) {
   .container {
     max-width: 98vw;
@@ -110,8 +308,6 @@ footer {
     font-size: 24px;
   }
 }
-
-/* Responsividade para telas pequenas */
 @media (max-width: 600px) {
   .container {
     padding: 10px;
@@ -131,8 +327,6 @@ footer {
     font-size: 14px;
   }
 }
-
-/* Responsividade para telas muito pequenas */
 @media (max-width: 400px) {
   .categoria h2 {
     font-size: 16px;
@@ -140,89 +334,8 @@ footer {
   .categoria li {
     font-size: 14px;
   }
-  .descricao {
-    font-size: 14px;
-  }
   .cta a {
     padding: 10px 18px;
     font-size: 13px;
   }
-}
-
-/* Seção de depoimentos */
-.avaliacoes {
-  margin: 50px auto;
-  max-width: 800px;
-  padding: 30px;
-  background-color: #121826;
-  border-radius: 15px;
-  border: 1px solid #00f0ff30;
-  box-shadow: 0 0 15px rgba(0, 240, 255, 0.1);
-  color: #e0f7fa;
-}
-
-.avaliacoes h2 {
-  font-size: 24px;
-  color: #00f0ff;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.comentario {
-  margin-bottom: 25px;
-  padding-left: 10px;
-  border-left: 3px solid #00f0ff;
-}
-
-.comentario .texto {
-  font-size: 16px;
-  margin-bottom: 5px;
-  color: #ffffff;
-}
-
-.comentario .autor {
-  font-size: 14px;
-  color: #8be0f2;
-  font-style: italic;
-}
-
-/* Seção do formulário */
-.avaliacoes-formulario {
-  margin: 50px auto;
-  max-width: 800px;
-  padding: 30px;
-  background-color: #121826;
-  border-radius: 15px;
-  border: 1px solid #00f0ff30;
-  box-shadow: 0 0 15px rgba(0, 240, 255, 0.1);
-  color: #e0f7fa;
-  text-align: center;
-}
-
-.avaliacoes-formulario h2 {
-  font-size: 24px;
-  color: #00f0ff;
-  margin-bottom: 15px;
-}
-
-.avaliacoes-formulario p {
-  font-size: 15px;
-  color: #d0e4f5;
-  margin-bottom: 20px;
-}
-
-.iframe-container {
-  background-color: #1a202e;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 0 15px rgba(0, 240, 255, 0.08);
-  border: 1px solid #00f0ff;
-  overflow: hidden;
-}
-
-.iframe-container iframe {
-  width: 100%;
-  height: 600px;
-  border: none;
-  border-radius: 8px;
 }

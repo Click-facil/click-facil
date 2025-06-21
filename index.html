@@ -3,105 +3,217 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Serviços digitais simples, rápidos e acessíveis. Atendimento 100% online para facilitar sua vida.">
   <title>Click Fácil — Serviços Digitais Online</title>
+  <meta name="description" content="Serviços digitais simples, rápidos e acessíveis. Atendimento 100% online para facilitar sua vida.">
+
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <meta property="og:title" content="Click Fácil — Serviços Digitais Online">
+  <meta property="og:description" content="Evite dores de cabeça. Resolvemos seus problemas digitais com agilidade e segurança.">
+  <meta property="og:image" content="https://click-facil.github.io/click-facil/assets/imagem-divulgacao.jpg">
+  <meta property="og:url" content="https://click-facil.github.io/click-facil/">
+  <meta property="og:type" content="website">
+
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <img src="./logo.png" alt="Logo da Click Fácil: símbolo digital em azul" width="120" height="120" loading="lazy">
+    <img src="assets/logo.png" alt="Logo da Click Fácil: símbolo digital em azul" width="120" height="120" loading="lazy">
     <h1>Click Fácil</h1>
-    <p style="font-size:18px; color:#b0c4de; margin: 8px 0;"><strong>Evite dores de cabeça. A gente resolve pra você.</strong></p>
+    <p class="descricao-header"><strong>Evite dores de cabeça. A gente resolve pra você.</strong></p>
   </header>
 
-  <main class="container">
-    <section class="categoria" aria-labelledby="doc-curriculos">
-      <h2 id="doc-curriculos">Documentos e Currículos</h2>
-      <ul>
-        <li>Currículos personalizados</li>
-        <li>Declarações simples</li>
-        <li>Contratos básicos (aluguel, prestação de serviço)</li>
-        <li>Cartas de apresentação</li>
-        <li>Termos de responsabilidade, uso de imagem, etc</li>
-      </ul>
-    </section>
-
-    <section class="categoria" aria-labelledby="planilhas-controles">
-      <h2 id="planilhas-controles">Planilhas e Controles</h2>
-      <ul>
-        <li>Controle financeiro pessoal</li>
-        <li>Controle de vendas e estoques</li>
-        <li>Planilha de orçamento mensal</li>
-        <li>Criação de planilhas customizadas</li>
-      </ul>
-    </section>
-
-    <section class="categoria" aria-labelledby="servicos-rapidos">
-      <h2 id="servicos-rapidos">Serviços Rápidos</h2>
-      <ul>
-        <li>Agendamento de consultas, exames e órgãos públicos</li>
-        <li>Criação e recuperação de e-mails</li>
-        <li>Cadastro e validação gov.br</li>
-        <li>Conversões de arquivos (Word, PDF, JPG, etc)</li>
-        <li>QR Codes personalizados</li>
-        <li>Envio de documentos por e-mail</li>
-      </ul>
-    </section>
-
-    <section class="categoria" aria-labelledby="servicos-avancados">
-      <h2 id="servicos-avancados">Serviços Avançados</h2>
-      <ul>
-        <li>Instalação e ativação do Windows (versões 10 e 11)</li>
-        <li>Instalação e ativação do Office (versões 2013 ou superior)</li>
-        <li>Instalação e configuração de softwares em geral</li>
-        <li>Backup e sincronização de arquivos</li>
-        <li>Manutenção e otimização do sistema</li>
-        <li>Atualização de drivers</li>
-        <li>Criação de landing pages personalizadas</li>
-      </ul>
-    </section>
-
-    <section style="text-align:center; margin-top:40px;">
-      <h2 style="color:#00f0ff; font-size:22px;">Por que escolher o Click Fácil?</h2>
-      <p style="color:#b0c4de; max-width: 600px; margin: 10px auto 20px;">
-        Ajudamos pessoas a resolver documentos, organizar finanças e solucionar tarefas do dia a dia digital — com agilidade, baixo custo e atendimento direto pelo WhatsApp.
-      </p>
-    </section>
-
+  <main>
     <nav class="cta" aria-label="Contato">
       <a href="https://wa.me/5591984520696" target="_blank" rel="noopener noreferrer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.894 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 4.315 1.731 6.086l-.219.332-1.231 4.492 4.625-1.214.34.205z"/></svg>
         Fale agora pelo WhatsApp
       </a>
     </nav>
+    
+    <section id="como-funciona">
+        <h2>Como Funciona?</h2>
+        <div class="passos-container">
+            <div class="passo">
+                <div class="passo-icone">1️⃣</div>
+                <h3>Chame no WhatsApp</h3>
+                <p>Você entra em contato e explica sua necessidade. Sem burocracia.</p>
+            </div>
+            <div class="passo">
+                <div class="passo-icone">2️⃣</div>
+                <h3>Execução Rápida</h3>
+                <p>Nossa equipe realiza o serviço e envia para sua aprovação.</p>
+            </div>
+            <div class="passo">
+                <div class="passo-icone">3️⃣</div>
+                <h3>Receba e Pague</h3>
+                <p>Com tudo aprovado, você paga via Pix e recebe o material pronto.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+      <section class="categoria" aria-labelledby="doc-curriculos">
+        <h2 id="doc-curriculos">Documentos e Currículos <span class="preco">a partir de R$ 25</span></li></h2> 
+        <ul>
+          <li>Currículos personalizados 
+          <li>Declarações simples</li>
+          <li>Contratos básicos (aluguel, prestação de serviço)</li>
+          <li>Cartas de apresentação</li>
+          <li>Termos de responsabilidade, uso de imagem, etc</li>
+        </ul>
+      </section>
+
+      <section class="categoria" aria-labelledby="planilhas-controles">
+        <h2 id="planilhas-controles">Planilhas e Controles <span class="preco">a partir de R$ 40</span></li></h2>
+        <ul>
+          <li>Controle financeiro pessoal 
+          <li>Controle de vendas e estoques</li>
+          <li>Planilha de orçamento mensal</li>
+          <li>Criação de planilhas customizadas</li>
+        </ul>
+      </section>
+
+      <section class="categoria" aria-labelledby="servicos-rapidos">
+        <h2 id="servicos-rapidos">Serviços Rápidos <span class="preco">a partir de R$ 10</span></li></h2>
+        <ul>
+          <li>Agendamento de consultas, exames e órgãos públicos </li>
+          <li>Criação e recuperação de e-mails</li>
+          <li>Cadastro e validação gov.br</li>
+          <li>Conversões de arquivos (Word, PDF, JPG, etc)</li>
+          <li>QR Codes personalizados 
+          <li>Envio de documentos por e-mail</li>
+        </ul>
+      </section>
+
+      <section class="categoria" aria-labelledby="servicos-avancados">
+        <h2 id="servicos-avancados">Serviços Avançados <span class="preco">a partir de R$ 80</span></li></h2>
+        <ul>
+          <li>Instalação e ativação do Windows e Office</li>
+          <li>Instalação e configuração de softwares em geral</li>
+          <li>Backup e sincronização de arquivos</li>
+          <li>Manutenção e otimização do sistema</li>
+          <li>Criação de landing pages personalizadas 
+        </ul>
+      </section>
+    </div>
+
+    <section id="garantias">
+        <h2>Nossas Garantias</h2>
+        <ul class="lista-garantias">
+            <li>✔️ <strong>Agilidade Total:</strong> Respostas e entregas rápidas para não perder tempo.</li>
+            <li>🔒 <strong>100% Online e Seguro:</strong> Resolva tudo do conforto da sua casa com total sigilo.</li>
+            <li>💬 <strong>Suporte Direto:</strong> Fale diretamente com quem resolve, sem intermediários.</li>
+            <li>💰 <strong>Custo Acessível:</strong> Qualidade e profissionalismo com preços que cabem no bolso.</li>
+        </ul>
+    </section>
+
+    <section id="avaliacoes-clientes">
+      <div class="avaliacoes-container">
+        <div class="lista-comentarios">
+          <h2>O que dizem nossos clientes 💬</h2>
+          <div class="comentario">
+            <div class="estrelas">★★★★★</div>
+            <p class="texto">"Fiz meu currículo com eles e ficou incrível. Em menos de 1 hora recebi tudo pronto!"</p>
+            <p class="autor">— Amanda Ribeiro</p>
+          </div>
+          <div class="comentario">
+            <div class="estrelas">★★★★★</div>
+            <p class="texto">"Precisei de um contrato simples e fui atendido na hora. Serviço rápido e confiável!"</p>
+            <p class="autor">— José Lima</p>
+          </div>
+          <div class="comentario">
+            <div class="estrelas">★★★★★</div>
+            <p class="texto">"Usei o Click Fácil pra converter documentos e agendar minha carteira de identidade. Muito prático!"</p>
+            <p class="autor">— Carla Fernandes</p>
+          </div>
+        </div>
+        <div class="formulario-avaliacao">
+          <h2>Deixe sua avaliação ✍️</h2>
+          <p>Sua opinião é importante para nós e ajuda outros clientes!</p>
+          <form id="form-avaliacao" action="COLE_SUA_URL_DO_FORMSPREE_AQUI" method="POST">
+            <label for="nome">Seu Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="avaliacao">Sua Avaliação:</label>
+            <textarea id="avaliacao" name="comentario" rows="4" required placeholder="Conte como foi sua experiência..."></textarea>
+            <label>Sua Nota:</label>
+            <div class="rating">
+              <input type="radio" id="star5" name="rating" value="5" required><label for="star5" title="5 estrelas">★</label>
+              <input type="radio" id="star4" name="rating" value="4"><label for="star4" title="4 estrelas">★</label>
+              <input type="radio" id="star3" name="rating" value="3"><label for="star3" title="3 estrelas">★</label>
+              <input type="radio" id="star2" name="rating" value="2"><label for="star2" title="2 estrelas">★</label>
+              <input type="radio" id="star1" name="rating" value="1"><label for="star1" title="1 estrela">★</label>
+            </div>
+            <button type="submit">Enviar Avaliação</button>
+          </form>
+          <p id="form-status"></p>
+        </div>
+      </div>
+    </section>
+    
+    <section id="faq">
+        <h2>Perguntas Frequentes (FAQ)</h2>
+        <div class="faq-container">
+            <details>
+                <summary>Como é feito o pagamento?</summary>
+                <p>O pagamento é 100% seguro, realizado via PIX somente após a aprovação e conclusão do serviço.</p>
+            </details>
+            <details>
+                <summary>É seguro enviar meus dados e documentos?</summary>
+                <p>Sim. Garantimos total sigilo e confidencialidade. Seus dados são utilizados apenas para a realização do serviço solicitado e são devidamente apagados após a conclusão.</p>
+            </details>
+            <details>
+                <summary>Em quanto tempo meu serviço fica pronto?</summary>
+                <p>A maioria dos serviços rápidos, como currículos e conversões, fica pronta em menos de 1 hora. Para serviços mais complexos, o prazo é combinado diretamente pelo WhatsApp.</p>
+            </details>
+            <details>
+                <summary>E se eu não gostar do resultado?</summary>
+                <p>Nossa prioridade é sua satisfação. Realizamos os ajustes necessários com base no seu feedback até que o resultado final esteja perfeito para você.</p>
+            </details>
+        </div>
+    </section>
+
   </main>
-<section class="avaliacoes">
-  <h2>O que dizem nossos clientes 💬</h2>
-
-  <div class="comentario">
-    <p class="texto">"Fiz meu currículo com eles e ficou incrível. Em menos de 1 hora recebi tudo pronto!"</p>
-    <p class="autor">— Amanda Ribeiro</p>
-  </div>
-
-  <div class="comentario">
-    <p class="texto">"Precisei de um contrato simples e fui atendido na hora. Serviço rápido e confiável!"</p>
-    <p class="autor">— José Lima</p>
-  </div>
-
-  <div class="comentario">
-    <p class="texto">"Usei o Click Fácil pra converter documentos e agendar minha carteira de identidade. Muito prático!"</p>
-    <p class="autor">— Carla Fernandes</p>
-  </div>
-</section>
-
-<section class="avaliacoes-formulario">
-  <h2>Deixe sua avaliação ✍️</h2>
-  <p>Sua opinião é importante. Conte como foi sua experiência e ajude outros clientes a confiar no Click Fácil!</p>
-  <div class="iframe-container">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScfYRn7DUz6lXBY1sKTrp0K5H3pU1v8p421yTFZkZ8uN2ETiA/viewform?usp=header" allowfullscreen></iframe>
-  </div>
-</section>
 
   <footer>
     Click Fácil © 2025 — Serviços Digitais com Agilidade
   </footer>
+
+  <script>
+    var form = document.getElementById("form-avaliacao");
+    var status = document.getElementById("form-status");
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: { 'Accept': 'application/json' }
+      }).then(response => {
+        if (response.ok) {
+          status.innerHTML = "Obrigado pela sua avaliação!";
+          status.style.color = "#00f0ff";
+          form.reset();
+        } else {
+          response.json().then(data => {
+            if (Object.hasOwn(data, 'errors')) {
+              status.innerHTML = data["errors"].map(error => error["message"]).join(", ");
+            } else {
+              status.innerHTML = "Oops! Ocorreu um problema ao enviar seu formulário.";
+              status.style.color = "red";
+            }
+          })
+        }
+      }).catch(error => {
+        status.innerHTML = "Oops! Ocorreu um problema ao enviar seu formulário.";
+        status.style.color = "red";
+      });
+    }
+    form.addEventListener("submit", handleSubmit);
+  </script>
 </body>
+</html>
